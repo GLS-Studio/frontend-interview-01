@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 
 const ClientApp = dynamic(() => import("../Main"), { ssr: false });
 
-export default function Home() {
+export default function Admin() {
   return (
     <main className={styles.main}>
       <ClientApp />
